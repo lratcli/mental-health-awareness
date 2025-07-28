@@ -22,8 +22,30 @@ Deployment
 
 Credits
 
+
 ------------------------------------------------------
-My rought working:
+
+Another example from Marko of "Readme Essentials" to consider:
+
+* Title
+* Live Site link
+* Brief Introduction
+* Responsivity Example Image
+* Contents
+* UX (User Experience): User Stories, Strategy, Scope, Structural, Skeleton (Wireframes), Surface
+* Design: Typography, Colour Scheme, Imagery
+* Website Features
+* Tablet/Mobile View
+* Future Features
+* Technologies Used: Languages, Frameworks, Libraries, Programs
+* Deployment: Step by step process for deploying to GitHub Pages
+* Testing: Validation of HTML/CSS, Lighthouse Audits, Bugs
+* Credits: Content References, Media References, Acknowledgements
+
+
+
+------------------------------------------------------
+My rough working plan at the start:
 
 # mental-health-awareness
 Code Institute Flagstone Project
@@ -46,6 +68,16 @@ The goal of this website is to provide a calm space where a user can access acce
 - users who are feel they may be suffereing from stress
 - users who feel they may be suffering from other mental health issues, and need information
 - users who are concerned about another, and are seeking information
+
+**Services**
+- offer fast and convenient access to a range of unseful information
+- provide direct links to embedded video guides on relaxation
+- allow users to sign up to a newsletter providing ongoing updates of useful information directly
+
+## User Stories ##
+
+These were generated using Copilot, refining prompts along the way to get more specific and relevant user stories.
+
 
 
 ---------------------------------------------------------------
