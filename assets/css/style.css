@@ -48,6 +48,15 @@ p{
 
  /* Cards */
 
+ #common-mhi .card-title{
+    min-height: 48px;
+ }
+
+#common-mhi .card-text{
+    min-height: 144px;
+    max-height: 344px;
+ }
+
  /* For card header, capitalsise */
 
  .source{
@@ -60,7 +69,7 @@ p{
 
  /* grid visualisation CSS for testing */
 
-.container,
+/* .container,
 .row {
     border: 2px solid black;
     background-color: red;
@@ -69,4 +78,4 @@ p{
 .col-12 {
     border: 2px solid white;
     background-color: lightgray;
-}
+} */
