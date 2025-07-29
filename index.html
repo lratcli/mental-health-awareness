@@ -14,7 +14,7 @@
 <body>
 
     <!-- Responsive Bootstrap Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-primary">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Mellow Mind</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -46,7 +46,7 @@
     <header id="header" class="container section">
         <div class="row">
             <!-- Two columns, half row width at lg or above -->
-            <div class="col-12 col-lg-6">
+            <div class="col-12 col-lg-6 text-center">
                 <h1 class="display-4">Mellow Mind</h1>
                 <p>Your journey to mental wellness starts here.</p>
                 <p>
@@ -55,66 +55,42 @@
                     ways to connect with others who care about mental well-being.
                 </p>
             </div>
-            <div class="col-12 col-lg-6">
+            <div class="col-12 col-lg-6 mb-4">
                 <!-- carousel, set to autoplay -->
-                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-                    <!-- <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
-                            class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                            aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                            aria-label="Slide 3"></button>
-                    </div> -->
-                    <div class="carousel-inner">
+                <div id="intro-carousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner mx-auto">
                         <div class="carousel-item active">
-                            <img src="assets/images/woman-meditating-in-nature.webp" class="d-block w-100" alt="a lady meditates in a serene forest">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>First slide label</h5>
-                                <p>Some representative placeholder content for the first slide.</p>
-                            </div>
+                            <img src="assets/images/woman-meditating-in-nature.webp" class="d-block w-100"
+                                alt="a lady meditates in a serene forest">
                         </div>
                         <div class="carousel-item">
-                            <img src="assets/images/gentleman-on-train.webp" class="d-block w-100" alt="a gentleman sits peacefully on a busy train">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>Second slide label</h5>
-                                <p>Some representative placeholder content for the second slide.</p>
-                            </div>
+                            <img src="assets/images/gentleman-on-train.webp" class="d-block w-100"
+                                alt="a gentleman sits peacefully on a busy train">
                         </div>
                         <div class="carousel-item">
-                            <img src="assets/images/two-ladies-talking.webp" class="d-block w-100" alt="a lady talks about life while her friend listens">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>Third slide label</h5>
-                                <p>Some representative placeholder content for the third slide.</p>
-                            </div>
+                            <img src="assets/images/two-ladies-talking.webp" class="d-block w-100"
+                                alt="a lady talks about life while her friend listens">
                         </div>
                         <div class="carousel-item">
-                            <img src="assets/images/man-walking-dog.webp" class="d-block w-100" alt="a man excercises with his dog in the great outdoors">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>Third slide label</h5>
-                                <p>Some representative placeholder content for the third slide.</p>
-                            </div>
+                            <img src="assets/images/man-walking-dog.webp" class="d-block w-100"
+                                alt="a man excercises with his dog in the great outdoors">
                         </div>
                         <div class="carousel-item">
-                            <img src="assets/images/lady-journaling.webp" class="d-block w-100" alt="a lady sits at home sharing her thoughts with her journal">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>Third slide label</h5>
-                                <p>Some representative placeholder content for the third slide.</p>
-                            </div>
+                            <img src="assets/images/lady-journaling.webp" class="d-block w-100"
+                                alt="a lady sits at home sharing her thoughts with her journal">
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    <!-- <button class="carousel-control-prev" type="button" data-bs-target="#intro-carousel"
                         data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    <button class="carousel-control-next" type="button" data-bs-target="#intro-carousel"
                         data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
-                    </button>
+                    </button> -->
                 </div>
-
             </div>
         </div>
 
@@ -123,12 +99,128 @@
     <!-- Main content area -->
     <main>
         <!-- Common mental health issue -->
-         <section id="common-mhi" class="container section">
-            <h2>Common mental health issues</h2>
+        <section id="common-mhi" class="container section">
+            <div class="row">
+                <div class="col-12 col-lg-8 mx-auto text-center">
+                    <h2>Common mental health issues</h2>
+                    <p> In their lifetime, One in four adults and one in 10 children experience mental illness, and many
+                        more of us know and care for people who do.*<br>
+                    Source: <a class="source" href="https://www.england.nhs.uk/mental-health/" alt="N.H.S. England Mental Health">NHS England</a></p>
+                    <p>It is now estimated that 1 in 4 people in England will experience a mental health problem in any
+                        given
+                        year. The most common mental health conditions to affect adults in England are**:</p>
+                    <p class="source">**Source: <a href="https://www.lpft.nhs.uk/contact-us/conditions-and-treatments"
+                            alt="link to Lincolnshire Partnership NHS Trust on mental health conditions and treatments"
+                            target="_blank" rel="noopener">Lincolnshire Partnership NHS Trust</a>
+                            </p>
+                </div>
+            </div>
 
 
+            <div class="row">
 
-         </section>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card mx-auto my-auto" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Mixed anxiety depressive disorder</h5>
+                            <p class="card-text">A condition where a person experiences the symptoms of depression and
+                                anxiety. It is estimated that this condition affects 1 in 10 adults in any given year.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card mx-auto my-3" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Generalised Anxiety Disorder (GAD)</h5>
+                            <p class="card-text">A condition where a person experiences persistent and severe feelings
+                                of anxiety. It is estimated that GAD affects 1 in 20 adults each year.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card mx-auto my-3" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Episodes of moderate to severe depression</h5>
+                            <p class="card-text">depression is estimated to affect 1 in 40 adults a year.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card mx-auto my-3" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Phobias</h5>
+                            <p class="card-text">an extreme, or irrational, fear (eg.a fear of heights or animals).
+                                Phobias are estimated to affect 1 in 40 adults a year.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card mx-auto my-3" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Obsessive Compulsive Disorder (OCD)</h5>
+                            <p class="card-text">A condition where a person experiences obsessive thoughts and
+                                compulsive behaviours. OCD is estimated to affect 1 in 75 adults a year.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card mx-auto my-3" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Panic disorders (also known as panic attacks)</h5>
+                            <p class="card-text">These are estimated to affect 1 in 80 adults a year.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section id="common-signs" class="container section">
+            <div class="row">
+                <div class="col-12 col-lg-8 mx-auto text-center">
+                    <h2>Symptoms</h2>
+                    <p>Signs and symptoms of mental illness can vary, depending on the disorder, circumstances and other
+                        factors. Mental illness symptoms can affect emotions, thoughts and behaviors.</p>
+                    <p>Examples of signs and symptoms include:
+                    <ul class="text-start">
+                        <li>Feeling sad or down</li>
+                        <li>Confused thinking or reduced ability to concentrate</li>
+                        <li>Excessive fears or worries, or extreme feelings of guilt</li>
+                        <li>Extreme mood changes of highs and lows</li>
+                        <li>Withdrawal from friends and activities</li>
+                        <li>Significant tiredness, low energy or problems sleeping</li>
+                        <li>Detachment from reality (delusions), paranoia or hallucinations</li>
+                        <li>Inability to cope with daily problems or stress</li>
+                        <li>Trouble understanding and relating to situations and to people</li>
+                        <li>Problems with alcohol or drug use</li>
+                        <li>Major changes in eating habits</li>
+                        <li>Sex drive changes</li>
+                        <li>Excessive anger, hostility or violence</li>
+                        <li>Suicidal thinking</li>
+                    </ul>
+                    </p>
+                    <p class="source">Source: <a
+                            href="https://www.mayoclinic.org/diseases-conditions/mental-illness/symptoms-causes/syc-20374968"
+                            alt="link to Mayo Clinic page on Mental Illnes" target="_blank" rel="noopener">Mayo
+                            clinic</a>
+                    </p>
+                </div>
+            </div>
+        </section>
     </main>
 
 
