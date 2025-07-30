@@ -18,12 +18,12 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body>
+<body class="d-flex flex-column min-vh-100">
 
     <!-- bg-primary removed from navbar class lineup -->
     <!-- Responsive Bootstrap Navbar -->
-    <nav class="navbar sticky-top navbar-expand-lg navbar-dark  navbar-color">
-        <div class="container-fluid">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark navbar-color">
+        <div class="container">
             <a class="navbar-brand" href="#">Mellow Mind</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -31,7 +31,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
@@ -53,8 +53,8 @@
     </nav>
     <!-- End Navbar -->
 
-    <!-- header section -->
-    <header id="header" class="container section my-4">
+    <!-- header section including carousel -->
+    <header id="header" class="container section">
         <div class="row">
             <!-- Two columns, half row width at lg or above -->
             <div class="col-12 col-lg-6 text-center">
@@ -91,16 +91,6 @@
                                 alt="a lady sits at home sharing her thoughts with her journal">
                         </div>
                     </div>
-                    <!-- <button class="carousel-control-prev" type="button" data-bs-target="#intro-carousel"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#intro-carousel"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button> -->
                 </div>
             </div>
         </div>
@@ -132,7 +122,7 @@
             <div class="row">
 
                 <div class="col-12 col-md-6 col-lg-4">
-                    <div class="card mx-auto my-3" style="width: 18rem;">
+                    <div class="card">
                         <img src="assets/images/c1-mixed-anxiety-depressive-order.webp" class="card-img-top"
                             alt="image showing troubled cartoon woman supporting her head with her hands, and with a dark raincloud above and dark squiggly lines around her representing anxiety and depression">
                         <div class="card-body">
@@ -145,7 +135,7 @@
                 </div>
 
                 <div class="col-12 col-md-6 col-lg-4">
-                    <div class="card mx-auto my-3" style="width: 18rem;">
+                    <div class="card">
                         <img src="assets/images/c2-generalised-anxiety-disorder.webp" class="card-img-top"
                             alt="image showing a troubled cartoon woman holding her head and surrounded by shapes representing anxiety">
                         <div class="card-body">
@@ -157,7 +147,7 @@
                 </div>
 
                 <div class="col-12 col-md-6 col-lg-4">
-                    <div class="card mx-auto my-3" style="width: 18rem;">
+                    <div class="card">
                         <img src="assets/images/c3-episodes-of-moderate-to-severe-depression.webp" class="card-img-top"
                             alt="image showing an unhappy cartoon woman leaning into her hands, covering her face, with a raincloud above her">
                         <div class="card-body">
@@ -168,7 +158,7 @@
                 </div>
 
                 <div class="col-12 col-md-6 col-lg-4">
-                    <div class="card mx-auto my-3" style="width: 18rem;">
+                    <div class="card">
                         <img src="assets/images/c4-phobias.webp" class="card-img-top"
                             alt="image showing a cartoon woman in distress, her hands up and eyes closed, as a spider hangs in front of her">
                         <div class="card-body">
@@ -180,7 +170,7 @@
                 </div>
 
                 <div class="col-12 col-md-6 col-lg-4">
-                    <div class="card mx-auto my-3" style="width: 18rem;">
+                    <div class="card">
                         <img src="assets/images/c5-obsessive-compulsive-disorder.webp" class="card-img-top"
                             alt="image showing an unhappy cartoon woman washing her hands, behind her a circular symbol represents that this is a never ending pattern">
                         <div class="card-body">
@@ -192,7 +182,7 @@
                 </div>
 
                 <div class="col-12 col-md-6 col-lg-4">
-                    <div class="card mx-auto my-3" style="width: 18rem;">
+                    <div class="card">
                         <img src="assets/images/c6-panic-disorder.webp" class="card-img-top"
                             alt="image showing a cartoon woman with her head in her hands, and her eyes closed and mouth open in distress, surrounded by squiggly lines representing her distress">
                         <div class="card-body">
@@ -207,10 +197,10 @@
         </section>
 
         <!-- Common symptoms of mental illness  -->
-        <section id="common-symptoms" class="container section mt-4">
+        <section id="common-symptoms" class="container section">
             <div class="row">
                 <div class="col-12 col-lg-8 mx-auto text-center">
-                    <h2 class="display-6">General symptoms</h2>
+                    <h2 class="display-6">Common symptoms</h2>
                     <p>Signs and symptoms of mental illness can vary, depending on the disorder, circumstances and other
                         factors. Mental illness symptoms can affect emotions, thoughts and behaviors.</p>
                     <p>Examples of signs and symptoms include:
@@ -270,7 +260,7 @@
             <div class="row justify-content-center">
 
                 <div class="col-12 col-md-6 col-lg-4">
-                    <div class="card mx-auto my-3" style="width: 18rem;">
+                    <div class="card">
                         <img src="assets/images/steps-1-connect-with-others.webp" class="card-img-top"
                             alt="a cartoon image of friendly people connecting with eachother">
                         <div class="card-body">
@@ -288,7 +278,7 @@
                 </div>
 
                 <div class="col-12 col-md-6 col-lg-4">
-                    <div class="card mx-auto my-3" style="width: 18rem;">
+                    <div class="card">
                         <img src="assets/images/steps-2-be-physically-active.webp" class="card-img-top"
                             alt="a cartoon image of people doing different types of exercise">
                         <div class="card-body">
@@ -308,7 +298,7 @@
                 </div>
 
                 <div class="col-12 col-md-6 col-lg-4">
-                    <div class="card mx-auto my-3" style="width: 18rem;">
+                    <div class="card">
                         <img src="assets/images/steps-3-learn-new-skills.webp" class="card-img-top"
                             alt="a cartoon image of people doing various types of activities">
                         <div class="card-body">
@@ -326,7 +316,7 @@
                 </div>
 
                 <div class="col-12 col-md-6 col-lg-4">
-                    <div class="card mx-auto my-3" style="width: 18rem;">
+                    <div class="card">
                         <img src="assets/images/steps-4-give-to-others.webp" class="card-img-top"
                             alt="a cartoon image of people giving to others">
                         <div class="card-body">
@@ -345,7 +335,7 @@
                 </div>
 
                 <div class="col-12 col-md-6 col-lg-4">
-                    <div class="card mx-auto my-3" style="width: 18rem;">
+                    <div class="card">
                         <img src="assets/images/steps-5-mindfulness.webp" class="card-img-top"
                             alt="a cartoon image of people being mindful of themselves and what they are experiencing">
                         <div class="card-body">
@@ -360,13 +350,7 @@
                         </div>
                     </div>
                 </div>
-
-
             </div>
-
-
-
-
         </section>
 
 
