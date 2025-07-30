@@ -51,8 +51,8 @@
                         aria-label="internal link to Steps to Wellbeing section of this page">Steps to wellbeing</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#footer"
-                        aria-label="internal link to footer/contact section containing social media accounts and email address">
+                        <a class="nav-link" href="#contact"
+                        aria-label="internal link to contact section containing social media accounts and email address">
                         Contact us</a>
                     </li>
                     <li class="nav-item">
@@ -375,6 +375,36 @@
             </div>
         </section>
 
+        <!-- Contact us -->
+        <section id="contact" class="container section mx-auto">
+            <div class="row">
+                <div class="col-12 col-lg-8 mx-auto text-center">
+                    <h2 class="display-6">Contact us!</h2>
+                    <h4>Want to be on our mailing list? Or tell us something? Here's the easy way!</h4>
+
+                    <form action="success.html" method="GET">
+                        <div class="row">
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="name" class="form-label">Name</label>
+                                <input class="form-control" id="name" name="name" type="text" required>
+                            </div>
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input class="form-control" id="email" name="email" type="email" required>
+                            </div>
+                            <div class="col-12 mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" rows="6" id="message" name="message" required></textarea>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn custom-button-filled">Submit</button>
+                    </form>
+                    
+                </div>
+            </div>
+        </section>
+
     </main>
 
 
@@ -407,7 +437,7 @@
 
                 <!-- contact form/page -->
                 <div class="col-12 col-md-6 text-center">
-                    <h4>Contact us</h4>
+                    <h4>Our direct email</h4>
                     <p class="my-4"><a href="mailto:dummy-email@no-domain.com"
                         aria-label="email address for owners of the page">dummy-email@no-domain.com</a></p>
                 </div>

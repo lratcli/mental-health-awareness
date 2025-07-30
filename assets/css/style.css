@@ -47,6 +47,20 @@ p {
     scroll-margin-top: 3rem;
 }
 
+/* Buttons */
+.custom-button-filled{
+    border: 2px solid var(--highlight-color);
+    background-color: var(--highlight-color);
+    color: white;
+}
+
+.custom-button-filled:hover{
+    border: 2px solid var(--light-highlight);
+    background-color: var(--light-highlight);
+    color: white;
+}
+
+
 /* formatting for external source citation / linking */
 .source {
     font-size: small;
@@ -68,7 +82,7 @@ header{
 
 /* Main */
 
-#common-mhi, #common-symptoms, #simple-steps-to-help{
+#common-mhi, #common-symptoms, #simple-steps-to-help, #contact{
     background-color: var(--secondary-color);
 }
 
