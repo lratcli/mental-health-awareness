@@ -132,6 +132,15 @@ li {
 
 /* Footer */
 
+#footer .section{
+    padding: 0;
+}
+
+#footer h4{
+    padding-top: 1rem;
+    padding-bottom: 0;
+}
+
 #footer{
     background-color: var(--primary-color);
     color: var(--light-highlight);
@@ -141,7 +150,6 @@ li {
         color: var(--secondary-color);
     }
 }
-
 
 .social-links a i{
     color: var(--light-highlight);
