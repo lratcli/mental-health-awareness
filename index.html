@@ -24,7 +24,9 @@
     <!-- Responsive Bootstrap Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark navbar-color sticky-top">
         <div class="container">
-            <a class="navbar-brand" href="#"><img src="assets/images/logo-192-192.webp" alt="Mellow Minds" height="35px" class="logo"></a>
+            <a class="navbar-brand" href="#header"><img src="assets/images/logo-192-192.webp" 
+                aria-label="navbar logo internal link back to home section of this page"alt="Mellow Minds" height="35px"
+                    class="logo"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -33,19 +35,31 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#header">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#header"
+                        aria-label="internal link to Steps to Home section of this page">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#common-mhi">Common Issues</a>
+                        <a class="nav-link" href="#common-mhi"
+                        aria-label="internal link to Common Mental Health Issues section of this page">Common Issues</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#common-symptoms">Symptoms</a>
+                        <a class="nav-link" href="#common-symptoms"
+                        aria-label="internal link to Common Symptoms section of this page">Symptoms</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#simple-steps-to-help">Steps to wellbeing</a>
+                        <a class="nav-link" href="#simple-steps-to-help"
+                        aria-label="internal link to Steps to Wellbeing section of this page">Steps to wellbeing</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#footer">Contact</a>
+                        <a class="nav-link" href="#footer"
+                        aria-label="internal link to footer/contact section containing social media accounts and email address">
+                        Contact us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link urgent-link" 
+                        href="https://www.nhs.uk/nhs-services/mental-health-services/where-to-get-urgent-help-for-mental-health/"
+                        aria-label="external link to nhs website page detailing resourcesfor urgent help with mental health"
+                        target="_blank" rel="noopener">NHS urgent help</a>
                     </li>
                 </ul>
             </div>
@@ -65,12 +79,6 @@
                     fostering a supportive community. Explore our site to find helpful information, practical tips, and
                     ways to connect with others who care about mental well-being.
                 </p>
-
-                <!-- Looking for urgent help section -->
-
-
-
-
             </div>
             <div class="col-12 col-lg-6">
                 <!-- carousel, set to autoplay -->
@@ -207,9 +215,10 @@
             <div class="row">
                 <div class="col-12 col-lg-8 mx-auto text-center">
                     <h2 class="display-6">Common symptoms</h2>
-                    <h4>Signs and symptoms of mental illness can vary, depending on the disorder, circumstances and other
+                    <h4>Signs and symptoms of mental illness can vary, depending on the disorder, circumstances and
+                        other
                         factors. Mental illness symptoms can affect emotions, thoughts and behaviors.</h4>
-                    <p>Examples of signs and symptoms include:
+                    <p>Examples of signs and symptoms include:</p>
                     <ul class="text-start">
                         <li>Feeling sad or down</li>
                         <li>Confused thinking or reduced ability to concentrate</li>
@@ -226,7 +235,6 @@
                         <li>Excessive anger, hostility or violence</li>
                         <li>Suicidal thinking</li>
                     </ul>
-                    </p>
                     <p class="source">Source: <a
                             href="https://www.mayoclinic.org/diseases-conditions/mental-illness/symptoms-causes/syc-20374968"
                             aria-label="link to Mayo Clinic page on Mental Illnes (opens in a new tab)" target="_blank"
@@ -234,20 +242,24 @@
                             clinic</a>
                     </p>
 
+                    <p>If you are experiencing any of these issues, or are in any other way concerned about your
+                        mental
+                        health it is time to seek out help. Your local GP is a common first point of contact to get
+                        assistance.</p>
                     <div class="urgent">
-                        <p>If you are experiencing any of these issues, or are in any other way concerned about your
-                            mental
-                            health it is time to seek out help. Your local GP is a common first point of contact to get
-                            help.</p>
-                        <p>If you are experiencing a mental health crisis, and are in need of immediate help, follow the
-                            link below to be taken to the NHS page for
+                        <p>If you are experiencing a mental health crisis, and are in need of immediate help, click the
+                            button below to be taken to the NHS page on
                             <a href="https://www.nhs.uk/nhs-services/mental-health-services/where-to-get-urgent-help-for-mental-health/"
                                 aria-label="link to NHS page for Where to get urgent help for mental health (opens in a new tab)"
-                                target="_blank" rel="noopener">Where to get urgent help for mental health</a>
+                                target="_blank" rel="noopener"
+                                aria-label="external link to nhs website page detailing resourcesfor urgent help with mental health">
+                                Where to get urgent help for mental health</a>
                         </p>
-                        <h3><a href="https://www.nhs.uk/nhs-services/mental-health-services/where-to-get-urgent-help-for-mental-health/"
-                                aria-label="link to NHS page for Where to get urgent help for mental health (opens in a new tab)"
-                                target="_blank" rel="noopener">Where to get urgent help for mental health</a></h3>
+                                <a class="btn btn-primary btn-lg" 
+                                href="https://www.nhs.uk/nhs-services/mental-health-services/where-to-get-urgent-help-for-mental-health/" 
+                                role="button" target="_blank" rel="noopener"
+                                aria-label="external link to nhs website page detailing resourcesfor urgent help with mental health">
+                                NHS: urgent help for mental health</a>
                     </div>
                 </div>
             </div>
@@ -313,7 +325,8 @@
                         <div class="card-body">
                             <h5 class="card-title text-center">Learn new skills</h5>
                             <p class="card-text">
-                                Good relationships are important for your mental wellbeing. They can:</p>
+                                Good relationships are important for your mental wellbeing. They can:
+                            </p>
                             <ul>
                                 <li>boosting self-confidence and raising self-esteem</li>
                                 <li>helping you to build a sense of purpose</li>
@@ -332,7 +345,8 @@
                             <p class="card-text">
                                 Research suggests that acts of giving and kindness can help improve your mental
                                 wellbeing
-                                by:</p>
+                                by:
+                            </p>
                             <ul>
                                 <li>creating positive feelings and a sense of reward</li>
                                 <li>giving you a feeling of purpose and self-worth</li>
@@ -363,7 +377,7 @@
 
     </main>
 
-    
+
 
 
     <!-- mt-auto pushes footer to bottom of page -->
@@ -374,7 +388,7 @@
             <div class="row justify-content-center">
                 <!-- Social media links -->
                 <div class="col-12 col-md-6 text-center">
-                    <h4>Find us on social media</h4>
+                    <h4>Join the community on social media</h4>
                     <div class="social-links my-4">
                         <a href="https://www.facebook.com" aria-label="Visit our Facebook page (opens in a new tab)"
                             target="_blank" rel="noopener">
@@ -431,7 +445,6 @@
                 });
             });
     </script>
-</body>
 
 </body>
 

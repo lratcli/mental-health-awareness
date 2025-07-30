@@ -38,11 +38,13 @@ p {
 }
 
 .section {
-    padding: 2rem 40px 40px 40px;
+    padding: 1rem 40px 40px 40px;
     margin-left: 0px;
     margin-right: 0px;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 30px;
+
+    scroll-margin-top: 3rem;
 }
 
 .source {
@@ -67,12 +69,6 @@ p {
 
 .navbar-color{
     background-color: var(--primary-color);
-    color: var(--light-highlight);
-}
-
-.navbar:hover{
-    color: var(--secondary-color);
-    transition: color 0.2s;     /* colour transition time */
 }
 
 /* Header */
