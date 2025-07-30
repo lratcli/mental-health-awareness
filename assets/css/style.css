@@ -28,8 +28,13 @@ p{
     font-family: var(--secondary-font);
 }
 
- .section{
+.section{
 
+}
+
+  .source{
+    font-size: small;
+    font-style: italic;
  }
 
 
@@ -49,7 +54,7 @@ p{
     max-width: 400px;
 }
 
- /* Cards */
+ /* Common mental health conditions cards */
 
  #common-mhi .card-title{
     min-height: 48px;
@@ -60,19 +65,24 @@ p{
     max-height: 344px;
  }
 
- /* For card header, capitalsise */
+/* simple steps to help section */
 
- .source{
-    font-size: small;
-    font-style: italic;
- }
+#simple-steps-to-help .card-title{
+    min-height: 48px;
+}
+
+#simple-steps-to-help .card-body{
+    min-height: 343px;
+}
+
+
 
 
 
 
  /* grid visualisation CSS for testing */
 
-.container,
+/* .container,
 .row {
     border: 2px solid black;
     background-color: red;
@@ -81,4 +91,4 @@ p{
 .col-12 {
     border: 2px solid white;
     background-color: lightgray;
-}
+} */
