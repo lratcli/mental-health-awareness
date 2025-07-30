@@ -24,7 +24,8 @@
     <!-- Responsive Bootstrap Navbar -->
     <nav class="navbar sticky-top navbar-expand-lg navbar-dark navbar-color">
         <div class="container">
-            <a class="navbar-brand" href="#"><img src="assets/images/logo-192-192.webp" alt="Mellow Minds" class="logo" width="40px"></a>
+            <a class="navbar-brand" href="#"><img src="assets/images/logo-192-192.webp" alt="Mellow Minds" class="logo"
+                    width="40px"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -60,11 +61,17 @@
             <div class="col-12 col-lg-6 text-center">
                 <h1 class="display-3 my-4">Mellow Mind</h1>
                 <h2 class="display-6 mb-2">Your journey to mental wellness starts here.</h2>
-                <p>
+                <p class="pb-4">
                     Mellow Mind is dedicated to raising awareness about mental health, providing resources, and
                     fostering a supportive community. Explore our site to find helpful information, practical tips, and
                     ways to connect with others who care about mental well-being.
                 </p>
+
+                <!-- Looking for urgent help section -->
+
+
+
+
             </div>
             <div class="col-12 col-lg-6">
                 <!-- carousel, set to autoplay -->
@@ -201,8 +208,8 @@
             <div class="row">
                 <div class="col-12 col-lg-8 mx-auto text-center">
                     <h2 class="display-6">Common symptoms</h2>
-                    <p>Signs and symptoms of mental illness can vary, depending on the disorder, circumstances and other
-                        factors. Mental illness symptoms can affect emotions, thoughts and behaviors.</p>
+                    <h4>Signs and symptoms of mental illness can vary, depending on the disorder, circumstances and other
+                        factors. Mental illness symptoms can affect emotions, thoughts and behaviors.</h4>
                     <p>Examples of signs and symptoms include:
                     <ul class="text-start">
                         <li>Feeling sad or down</li>
@@ -227,18 +234,22 @@
                             rel="noopener">Mayo
                             clinic</a>
                     </p>
-                    <p>If you are experiencing any of these issues, or are in any other way concerned about your mental
-                        health it is time to seek out help. Your local GP is a common first point of contact to get
-                        help.</p>
-                    <p>If you are experiencing a mental health crisis, and are in need of immediate help, follow the
-                        link below to be taken to the NHS page for
-                        <a href="https://www.nhs.uk/nhs-services/mental-health-services/where-to-get-urgent-help-for-mental-health/"
-                            aria-label="link to NHS page for Where to get urgent help for mental health (opens in a new tab)"
-                            target="_blank" rel="noopener">Where to get urgent help for mental health</a>
-                    </p>
-                    <h3><a href="https://www.nhs.uk/nhs-services/mental-health-services/where-to-get-urgent-help-for-mental-health/"
-                            aria-label="link to NHS page for Where to get urgent help for mental health (opens in a new tab)"
-                            target="_blank" rel="noopener">Where to get urgent help for mental health</a></h3>
+
+                    <div class="urgent">
+                        <p>If you are experiencing any of these issues, or are in any other way concerned about your
+                            mental
+                            health it is time to seek out help. Your local GP is a common first point of contact to get
+                            help.</p>
+                        <p>If you are experiencing a mental health crisis, and are in need of immediate help, follow the
+                            link below to be taken to the NHS page for
+                            <a href="https://www.nhs.uk/nhs-services/mental-health-services/where-to-get-urgent-help-for-mental-health/"
+                                aria-label="link to NHS page for Where to get urgent help for mental health (opens in a new tab)"
+                                target="_blank" rel="noopener">Where to get urgent help for mental health</a>
+                        </p>
+                        <h3><a href="https://www.nhs.uk/nhs-services/mental-health-services/where-to-get-urgent-help-for-mental-health/"
+                                aria-label="link to NHS page for Where to get urgent help for mental health (opens in a new tab)"
+                                target="_blank" rel="noopener">Where to get urgent help for mental health</a></h3>
+                    </div>
                 </div>
             </div>
         </section>
@@ -250,8 +261,9 @@
                     <h2 class="display-6">5 steps to mental wellbeing</h2>
                     <p>Evidence suggests there are 5 steps you can take to improve your mental health and wellbeing.
                         Trying these things could help you feel more positive and able to get the most out of life.*</p>
-                    <p>*Source (above and for step cards below): <a class="source"
-                            href="https://www.england.nhs.uk/mental-health/" aria-label="N.H.S. England Mental Health">NHS
+                    <p>*Source for this section "5 steps to mental wellbeing": <a class="source"
+                            href="https://www.england.nhs.uk/mental-health/"
+                            aria-label="N.H.S. England Mental Health">NHS
                             England:5 steps to mental wellbeing</a>
                     </p>
                 </div>
@@ -407,7 +419,7 @@
                     let section = document.querySelector(e.target.getAttribute("href"));
                     if (section) {
                         e.preventDefault(); // Prevent default anchor click behavior
-                        let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
+                        let navbarHeight = document.querySelector(".navbar").offsetHeight;
                         window.scroll({
                             top: section.offsetTop - navbarHeight, // Adjust for navbar height
                             behavior: "smooth",
@@ -419,6 +431,7 @@
                 });
             });
     </script>
+</body>
 
 </body>
 
