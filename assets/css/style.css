@@ -138,11 +138,14 @@ li {
 #footer{
     background-color: var(--primary-color);
     color: var(--light-highlight);
+}
 
-    p{ font-size: 1rem;}
-    p:hover{
+#footer p{ 
+        font-size: 1rem;
+}
+
+#footer p:hover{
         color: var(--secondary-color);
-    }
 }
 
 .social-links a i{
