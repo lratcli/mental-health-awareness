@@ -67,6 +67,12 @@ p {
 
 .navbar-color{
     background-color: var(--primary-color);
+    color: var(--light-highlight);
+}
+
+.navbar:hover{
+    color: var(--secondary-color);
+    transition: color 0.2s;     /* colour transition time */
 }
 
 /* Header */
