@@ -117,17 +117,8 @@ li {
     min-height: 48px;
 }
 
-#common-mhi .card-text {
-    min-height: 144px;
-    max-height: 344px;
-}
-
 #simple-steps-to-help .card-title {
     min-height: 48px;
-}
-
-#simple-steps-to-help .card-body {
-    min-height: 384px;
 }
 
 
@@ -164,4 +155,34 @@ li {
 
 .social-links a:hover i {
     color: var(--secondary-color);   /* Optional: change colour on hover */
+}
+
+
+/* Media queries */
+
+/* Medium devices (tablets, 768px and up) */
+/* reduce size of cards to reduce empty space under text */
+ @media screen and (min-width: 768px){
+    
+    #common-mhi .card-body {
+    min-height: 232px;
+    max-height: 344px;
+    }
+    
+    #simple-steps-to-help .card-body {
+    min-height: 360px;
+    }
+}
+
+/* large devices (small laptops, 992px and up) */
+/* reduce size of cards to reduce empty space under text */
+@media screen and (min-width: 992px){
+    
+    #simple-steps-to-help .card-body {
+    min-height: 232px;
+    }
+
+    #simple-steps-to-help .card-body {
+    min-height: 384px;
+    }
 }
