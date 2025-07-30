@@ -83,7 +83,12 @@ li {
     max-width: 400px;
 }
 
-/* Common mental health conditions cards */
+
+/* Cards */
+
+.card{
+    margin: 8px 0;
+}
 
 #common-mhi .card-title {
     min-height: 48px;
@@ -94,14 +99,12 @@ li {
     max-height: 344px;
 }
 
-/* simple steps to help section */
-
 #simple-steps-to-help .card-title {
     min-height: 48px;
 }
 
 #simple-steps-to-help .card-body {
-    min-height: 343px;
+    min-height: 384px;
 }
 
 
@@ -110,7 +113,13 @@ li {
 #footer{
     background-color: var(--primary-color);
     color: var(--light-highlight);
+
+    p{ font-size: 1.5rem;}
+    p:hover{
+        color: var(--secondary-color);
+    }
 }
+
 
 .social-links a i{
     color: var(--light-highlight);
