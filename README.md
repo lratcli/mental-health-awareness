@@ -93,3 +93,56 @@ These fonts were:
 
 ![alt text](readme-assets/fonts-selected.webp)
 
+
+### Colour Scheme
+
+The author had difficulty selecting a colour palette that they believe would be suitable using coolers.co or the Adobe colour wheel. For that reason, they chose a four colour palette on coolers.co and then adjusted them directly in style.css using the vscode colour picker.
+
+The colours chosen are shown below as they would appear on the cooler.co website, but this is illustrative as this is not how they were chosen.
+
+![alt text](readme-assets/colour-palette.webp)
+
+## Features
+
+The site is a simple main page (index.html) with a second page (confirm.html) used only to confirm to a user that they have submitted a contact form.
+
+### Main page
+
+The main page (index.html) contains all the content on mental health, and a contact form at the end of the page. There is a sticky Bootstrap navbar at the top, and a footer at the very bottom. The head section uses a Bootstrap Carousel, and sections on the page use Bootstrap Cards. A Bootsrap button is used on the page to link to an NHS urgent health page.
+
+Images use alt tags and links use aria-label attributes to aid screen readers.
+
+Main page with navbar, showing Bootstrap Carousel:
+
+![Main page with navbar](readme-assets/index-html-navbar.webp)
+
+Main page content, here using Bootstrap Cards:
+
+![Bootstrap Cards on main page](readme-assets/cards-index-html.webp)
+
+### Confirm / Success page
+
+This page is only accessed from the main page after successfully submitting a form. It features a similar navbar to the main page, only with fewer navigation options, and the same footer. One of the ways to navigate back to the main page is a Bootsrap button, visible just below the main "success" text.
+
+![confirm success page](readme-assets/confirm-html-nav-button-footer.webp)
+
+### Navbar
+
+The Bootstrap Navbar is fully responsive. Here is the navbar expanded from its "burger" configuration when used at tablet or smaller resolutions.
+
+![responsive Bootstrap navbar](readme-assets/expanded-mobile-navbar.webp)
+
+### Carousel (Bootstrap)
+
+Here is the Bootstrap Carousel again, this time taking full width in its Bootstrap column:
+
+![Bootstrap Carousel](readme-assets/carousel-mobile.webp)
+
+
+### Form / Bootstrap Button
+
+Main page contact form and footer, showing both a html form and Bootstrap Button:
+
+![form and Bootstrap button](readme-assets/index-html-form-footer.webp)
+
+## Testing
