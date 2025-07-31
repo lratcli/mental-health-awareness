@@ -121,6 +121,10 @@ li {
     min-height: 48px;
 }
 
+/* Contact */
+#contact p{
+    font-size: large;
+}
 
 /* Footer */
 
