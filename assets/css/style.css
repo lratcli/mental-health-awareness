@@ -128,6 +128,10 @@ li {
 
 /* Footer */
 
+#footer p{
+    font-size: large;
+}
+
 #footer .section{
     padding-top: 0;
     padding-bottom: .5rem;
@@ -144,9 +148,9 @@ li {
     color: var(--light-highlight);
 }
 
-#footer p{ 
-        font-size: 1rem;
-}
+/* #footer p{ 
+        font-size: 1.5rem;
+} */
 
 #footer p:hover{
         color: var(--secondary-color);
@@ -154,7 +158,7 @@ li {
 
 .social-links a i{
     color: var(--light-highlight);
-    font-size: 1.5rem;               /* make icons larger */
+    font-size: 1.25rem;               /* make icons larger */
     transition: color 0.2s;         /* colour transition time */
     margin-left: 8px;
     margin-right: 8px;
