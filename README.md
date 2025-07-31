@@ -10,6 +10,8 @@ The deployed site can be found here:
 
 [https://lratcli.github.io/mental-health-awareness/index.html](https://lratcli.github.io/mental-health-awareness/index.html)
 
+First a few introductory images demonstrating responsiveness.
+
 ![alt text](readme-assets/amiresponsive-demo-mellow-mind-2.webp)
 
 ![alt text](readme-assets/amiresponsive-demo-mellow-mind-2.webp)
@@ -214,7 +216,7 @@ The github repo for the project is:
 The project is deployed on GitHub pages here:
 [https://lratcli.github.io/mental-health-awareness/](https://lratcli.github.io/mental-health-awareness/)
 
-## Credit
+## Credits
 
 Many resources were used in making this project.
 
